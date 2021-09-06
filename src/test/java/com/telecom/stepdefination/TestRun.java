@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features=".//src//test//resources//AddTarrif1.Feature",
 		glue="com.telecom.stepdefination",
-		plugin="html:target1",
+		plugin= {"html:target","json:target/cucmberbuid1.json"},
 		monochrome=true,
 		dryRun=false
 		
